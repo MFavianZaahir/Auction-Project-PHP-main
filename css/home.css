@@ -1,0 +1,68 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.bg {
+  height: 100vh;
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%),
+    url("../Bgs/market.jpg");
+  background-position: top center; /* Set the background position to top center */
+  background-size: cover;
+  background-repeat: no-repeat; /* Remove the background repeat */
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.landingtext {
+  padding-top: 40vh;
+}
+
+.details {
+  min-height: 100vh;
+  background: #131313;
+  color: white;
+  text-align: center;
+}
+
+/* Hover Effect */
+.textbox {
+  padding-top: 50px;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+#tambah-item-form {
+  padding-top: 100px;
+  color: white;
+}
+
+/* about */
+section#about{
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
+.image-container {
+  width: 500px;
+  height: 400px;
+  overflow: hidden; /* Menghindari perluasan gambar */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Meng-crop gambar jika perlu */
+}
+
+@media screen and (max-width: 546px) {
+  .image-container {
+    width: auto;
+    height: auto;
+  } 
+}
